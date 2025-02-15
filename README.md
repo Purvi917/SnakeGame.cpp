@@ -3,12 +3,17 @@ Snake Game
 This is a simple implementation of the classic Snake Game using C++. The game uses standard C++ data structures (queue, set, and pair) along with custom classes (Food, Snake, and GameBoard) to manage gameplay mechanics.
 
 📝 Overview
+
 The game includes:
 
 Food Class: Handles the spawning of food on the game board.
+
 Snake Class: Manages movement, growth, and self-collision of the snake.
+
 Game Board Class: Oversees game logic, input handling, rendering and score update.
+
 🎮 How to Play
+
 Use the following controls to play:
 
 W → Move Up
