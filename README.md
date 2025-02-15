@@ -12,11 +12,17 @@ Game Board Class: Oversees game logic, input handling, rendering and score updat
 Use the following controls to play:
 
 W → Move Up
+
 S → Move Down
+
 A → Move Left
+
 D → Move Right
+
 X → Exit Game
+
 R → Restart Game
+
 The objective is to eat the food (marked as 'F') in order to score more and avoid collisions with the wall or the snake's own body.
 
 Game Screenshot
