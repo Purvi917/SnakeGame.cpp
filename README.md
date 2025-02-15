@@ -1,31 +1,30 @@
 # Snake Game
 
-This is a simple implementation of the classic Snake Game using C++. The game uses standard C++ data structures (queue, set, and pair) along with custom classes (Food, Snake, and GameBoard) to manage gameplay mechanics.
+This is a simple implementation of the classic **Snake Game** using C++. The game uses standard C++ data structures (`queue`, `set`, and `pair`) along with custom classes (`Food`, `Snake`, and `GameBoard`) to manage gameplay mechanics.
 
 ## 📝 Overview
 
 The game includes:
+- **Food Class**: Handles the spawning of food on the game board.
+- **Snake Class**: Manages movement, growth, and self-collision of the snake.
+- **Game Board Class**: Oversees game logic, input handling, rendering and score update.
 
--**Food Class**: Handles the spawning of food on the game board.
--**Snake Class**: Manages movement, growth, and self-collision of the snake.
--**Game Board Class**: Oversees game logic, input handling, rendering and score update.
-
-##🎮 How to Play
+## 🎮 How to Play
 
 Use the following controls to play:
 
--**W** → Move Up
--**S** → Move Down
--**A** → Move Left
--**D** → Move Right
--**X** → Exit Game
--**R** → Restart Game
+- **W** → Move Up
+- **S** → Move Down
+- **A** → Move Left
+- **D** → Move Right
+- **X** → Exit Game
+- **R** → Restart Game
 
 The objective is to eat the food (marked as **'F'**) in order to score more and avoid collisions with the wall or the snake's own body.
 
 ![image alt](https://github.com/Purvi917/SnakeGame.cpp/blob/d5876e5e9d662826cc5019969f10d6105fee0561/Screenshot.png)
 
-##📌 Data Structures Used
+## 📌 Data Structures Used
 
 ### 1️⃣ Queue (`std::queue`)
 - Used in the `Snake` class to store the snake's body segments.
