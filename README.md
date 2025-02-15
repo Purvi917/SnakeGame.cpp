@@ -30,7 +30,7 @@ R → Restart Game
 
 The objective is to eat the food (marked as 'F') in order to score more and avoid collisions with the wall or the snake's own body.
 
-https://github.com/Purvi917/SnakeGame.cpp/blob/main/Screenshot.png?raw=true
+![image alt](https://github.com/Purvi917/SnakeGame.cpp/blob/d5876e5e9d662826cc5019969f10d6105fee0561/Screenshot.png)
 
 📌 Data Structures Used
 
