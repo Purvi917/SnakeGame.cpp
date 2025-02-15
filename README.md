@@ -35,14 +35,17 @@ Game Screenshot
 📌 Data Structures Used
 
 1️⃣ Queue (std::queue)
+
 Used in the Snake class to store the snake's body segments.
 Allows efficient insertion of new segments at the head and removal at the tail.
 
 2️⃣ Set (std::set)
+
 Maintains the snake's body positions for quick lookup.
 Helps efficiently detect self-collisions.
 
 3️⃣ Pair (std::pair)
+
 Represents coordinates of the snake's segments, food, and head.
 Convenient for handling (x, y) positions.
 
